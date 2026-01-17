@@ -2255,12 +2255,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
+    { name = "langchain-mcp-adapters" },
     { name = "uipath-langchain" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "ipykernel", specifier = ">=7.1.0" },
+    { name = "langchain-mcp-adapters", specifier = ">=0.2.1" },
     { name = "uipath-langchain", specifier = ">=0.3.2" },
 ]
 
